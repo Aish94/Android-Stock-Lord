@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_bg">#339966</color>
+    <color name="register_bg">#3366FF</color>
+    <color name="login_btn_color">#009933</color>
+    <color name="register_btn_color">#006699</color>
+</resources>

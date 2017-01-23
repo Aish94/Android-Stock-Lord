@@ -1,0 +1,122 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.stocklord.stocklord.CompanyProfile">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/BackButton"
+                android:background="@drawable/back_btn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView_companyName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy"
+                android:id="@+id/button_buy" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sell"
+                android:id="@+id/button_sell" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow android:weightSum="1.0" >
+                <TextView android:text="Symbol" android:layout_weight=".5" android:gravity="center"/>
+                <TextView android:id="@+id/cell1" android:layout_weight=".5" android:gravity="center"/>
+            </TableRow>
+            <TableRow android:weightSum="1.0" >
+                <TextView android:text="Avg Daily Volume" android:layout_weight=".5" android:gravity="center"/>
+                <TextView android:id="@+id/cell2" android:layout_weight=".5" android:gravity="center"/>
+            </TableRow>
+            <TableRow android:weightSum="1.0" >
+                <TextView android:text="Change" android:layout_weight=".5" android:gravity="center"/>
+                <TextView android:id="@+id/cell3" android:layout_weight=".5" android:gravity="center"/>
+            </TableRow>
+            <TableRow android:weightSum="1.0">
+                <TextView android:text="Days Low" android:layout_weight=".5" android:gravity="center"/>
+                <TextView android:id="@+id/cell4" android:layout_weight=".5" android:gravity="center"/>
+            </TableRow>
+            <TableRow android:weightSum="1.0">
+                <TextView android:text="Days High" android:layout_weight=".5" android:gravity="center"/>
+                <TextView android:id="@+id/cell5" android:layout_weight=".5" android:gravity="center"/>
+            </TableRow>
+            <TableRow android:weightSum="1.0">
+                <TextView android:text="Year Low" android:layout_weight=".5" android:gravity="center"/>
+                <TextView android:id="@+id/cell6" android:layout_weight=".5" android:gravity="center"/>
+            </TableRow>
+            <TableRow android:weightSum="1.0">
+                <TextView android:text="Year High" android:layout_weight=".5" android:gravity="center"/>
+                <TextView android:id="@+id/cell7" android:layout_weight=".5" android:gravity="center"/>
+            </TableRow>
+            <TableRow android:weightSum="1.0">
+                <TextView android:text="Market Capitalization" android:layout_weight=".5" android:gravity="center"/>
+                <TextView android:id="@+id/cell8" android:layout_weight=".5" android:gravity="center"/>
+            </TableRow>
+            <TableRow android:weightSum="1.0">
+                <TextView android:text="Last Trade Price Only" android:layout_weight=".5" android:gravity="center"/>
+                <TextView android:id="@+id/cell9" android:layout_weight=".5" android:gravity="center"/>
+            </TableRow>
+            <TableRow android:weightSum="1.0">
+                <TextView android:text="Days Range" android:layout_weight=".5" android:gravity="center"/>
+                <TextView android:id="@+id/cell10" android:layout_weight=".5" android:gravity="center"/>
+            </TableRow>
+            <TableRow android:weightSum="1.0">
+                <TextView android:text="Volume" android:layout_weight=".5" android:gravity="center"/>
+                <TextView android:id="@+id/cell11" android:layout_weight=".5" android:gravity="center"/>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timeline"
+                android:id="@+id/textView_timeline" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_timeline" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView_graph" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

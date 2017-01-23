@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.stocklord.stocklord.HighScores"
+    >
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <TextView
+        android:text="HIGH SCORES"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="11">
+        <TableRow android:weightSum="1.0" android:layout_weight="1.0">
+            <TextView android:text="User Name" android:layout_weight=".5" android:gravity="center"/>
+            <TextView android:text="NetWorth" android:layout_weight=".5" android:gravity="center"/>
+        </TableRow>
+        <TableRow android:weightSum="1.0" android:layout_weight="1.0">
+            <TextView android:id="@+id/email1" android:layout_weight=".5" android:gravity="center"/>
+            <TextView android:id="@+id/score1" android:layout_weight=".5" android:gravity="center"/>
+        </TableRow>
+        <TableRow android:weightSum="1.0" android:layout_weight="1.0">
+            <TextView android:id="@+id/email2" android:layout_weight=".5" android:gravity="center"/>
+            <TextView android:id="@+id/score2" android:layout_weight=".5" android:gravity="center"/>
+        </TableRow>
+        <TableRow android:weightSum="1.0" android:layout_weight="1.0">
+            <TextView android:id="@+id/email3" android:layout_weight=".5" android:gravity="center"/>
+            <TextView android:id="@+id/score3" android:layout_weight=".5" android:gravity="center"/>
+        </TableRow>
+        <TableRow android:weightSum="1.0" android:layout_weight="1.0">
+            <TextView android:id="@+id/email4" android:layout_weight=".5" android:gravity="center"/>
+            <TextView android:id="@+id/score4" android:layout_weight=".5" android:gravity="center"/>
+        </TableRow>
+        <TableRow android:weightSum="1.0" android:layout_weight="1.0">
+            <TextView android:id="@+id/email5" android:layout_weight=".5" android:gravity="center"/>
+            <TextView android:id="@+id/score5" android:layout_weight=".5" android:gravity="center"/>
+        </TableRow>
+        <TableRow android:weightSum="1.0" android:layout_weight="1.0">
+            <TextView android:id="@+id/email6" android:layout_weight=".5" android:gravity="center"/>
+            <TextView android:id="@+id/score6" android:layout_weight=".5" android:gravity="center"/>
+        </TableRow>
+        <TableRow android:weightSum="1.0" android:layout_weight="1.0">
+            <TextView android:id="@+id/email7" android:layout_weight=".5" android:gravity="center"/>
+            <TextView android:id="@+id/score7" android:layout_weight=".5" android:gravity="center"/>
+        </TableRow>
+        <TableRow android:weightSum="1.0" android:layout_weight="1.0">
+            <TextView android:id="@+id/email8" android:layout_weight=".5" android:gravity="center"/>
+            <TextView android:id="@+id/score8" android:layout_weight=".5" android:gravity="center"/>
+        </TableRow>
+        <TableRow android:weightSum="1.0" android:layout_weight="1.0">
+            <TextView android:id="@+id/email9" android:layout_weight=".5" android:gravity="center"/>
+            <TextView android:id="@+id/score9" android:layout_weight=".5" android:gravity="center"/>
+        </TableRow>
+        <TableRow android:weightSum="1.0" android:layout_weight="1.0">
+            <TextView android:id="@+id/email10" android:layout_weight=".5" android:gravity="center"/>
+            <TextView android:id="@+id/score10" android:layout_weight=".5" android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+    </LinearLayout>
+</FrameLayout>

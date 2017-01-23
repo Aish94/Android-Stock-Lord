@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Stock Lord</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array
+        name= "fragmentTitles">
+        <item>About</item>
+        <item>User Profile</item>
+        <item>Company List</item>
+        <item>News Feed</item>
+        <item>Leader Board</item>
+        <item>LogOut</item>
+    </string-array>
+
+    <string-array
+        name= "companies">
+        <item>"Yahoo! Inc."</item>
+        <item> "Alphabet Inc."</item>
+        <item>"Amazon.com, Inc."</item>
+        <item>"Microsoft Corporation"</item>
+        <item>"Apple Inc."</item>
+        <item>"Facebook, Inc."</item>
+        <item>"Twitter Inc. Common Stock"</item>
+        <item>"Oracle Corporation Common Stock"</item>
+        <item>"SanDisk Corporation"</item>
+        <item>"Cisco Systems, Inc."</item>
+    </string-array>
+
+    <string-array
+        name= "symbols">
+        <item>"YHOO"</item>
+        <item> "GOOG"</item>
+        <item>"AMZN"</item>
+        <item>"MSFT"</item>
+        <item>"AAPL"</item>
+        <item>"FB"</item>
+        <item>"TWTR"</item>
+        <item>"ORCL"</item>
+        <item>"SNDK"</item>
+        <item>"CSCO"</item>
+    </string-array>
+
+    <integer name="cash_begin">1000</integer>
+
+    <string name="LoginURL">http://www.stocklord.pixub.com/login.php</string>
+    <string name="RegisterURL">http://www.stocklord.pixub.com/register.php</string>
+    <string name="UserDataURL">http://www.stocklord.pixub.com/userdata.php</string>
+    <string name="PutDataURL">http://www.stocklord.pixub.com/putdata.php</string>
+    <string name="HighScoreURL">http://www.stocklord.pixub.com/leaderboard.php</string>
+    <string name = "apiquery1">"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quote%20where%20symbol%20in%20(%22"</string>
+    <string name="apiquery2">"%22)&amp;format=json&amp;diagnostics=true&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&amp;callback="</string>
+    <string name="graphapiquery1">"http://chart.finance.yahoo.com/z?s="</string>
+    <string name="graphapiquery2">"&amp;t="</string>
+    <string name="graphapiquery3">"&amp;q=l&amp;l=on&amp;z=l"</string>
+    <string name="newsfeedURL">"http://feeds.finance.yahoo.com/rss/2.0/headline?s=yhoo,msft,goog,amzn,aapl,twtr,orcl,sndk,csco,fb&amp;region=US&amp;lang=en-US"</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name = "gotoRegisteration">First Time User? Register</string>
+    <string name = "gotoLogin">Already a user? Login</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>
